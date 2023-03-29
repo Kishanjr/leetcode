@@ -18,3 +18,6 @@ class Solution(object):
         for i in range(n):
             for j in range(i+1, n):
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+
+# tc - O(n^2) where n is the dimension of the matrix
+#sc - O(1)

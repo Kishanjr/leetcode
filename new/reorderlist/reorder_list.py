@@ -50,3 +50,6 @@ class Solution:
             head2 = head2.next
             head.next.next = temp
             head = temp
+
+#TC - O(N)
+#SC - O(1)

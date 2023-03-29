@@ -1,3 +1,5 @@
+# tc -O(m*n),m rows and n coloums
+#sc -O(n)
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         if m == 1:

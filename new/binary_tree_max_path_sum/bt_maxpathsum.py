@@ -4,6 +4,9 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+#tc -O(n)
+# sc -O(h) hieght of tree
 class Solution(object):
     def maxPathSum(self, root):
         """

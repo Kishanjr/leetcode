@@ -40,3 +40,6 @@ class Solution(object):
             return time
         else:
             return -1
+
+# tc O(m*n) number of rows and n is the number of columns m
+# sc O(m*n)

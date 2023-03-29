@@ -1,10 +1,3 @@
-
-
-from classdefs.tree_node import TreeNode
-
-# Intuition: Performing an inorder traversal on a valid binary search tree
-# will return a sorted array
-
 # Time Complexity: O(n), where n is the number of nodes in the tree
 # Space Complexity: O(h), where h is the height of the tree
 
